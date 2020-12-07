@@ -22,7 +22,7 @@ $(document).ready(function () {
         function startGame() {
             //When the game begins, generate a random valid index to pick one of the words.
             var index = Math.floor(Math.random() * animals.length);
-            var word = animals[index];
+            var word = animals[index].toUpperCase();
             randomWords = word.split("");
 
             //Display one dash for each unguessed letter for the length of the random word
