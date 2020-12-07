@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<html>
+    <body>
+        <div class="container">
+            <h1>Hangman</h1>
+            <p>You will guess letters until you run out of wrong guesses or you solve the mystery word.</p>
+            <p>You get 6 wrong guesses</p>
+
+            <p id="mysteryWord"></p>
+
+                <form>
+                    <input type="button" id="a" class="letter" name="A" value="A">
+                    <input type="button" id="b" class="letter" name="B" value="B">
+                    <input type="button" id="c" class="letter" name="C" value="C">
+                    <input type="button" id="d" class="letter" name="D" value="D">
+                    <input type="button" id="e" class="letter" name="E" value="E">
+                    <input type="button" id="f" class="letter" name="F" value="F">
+                    <input type="button" id="g" class="letter" name="G" value="G">
+                    <input type="button" id="h" class="letter" name="H" value="H">
+                    <input type="button" id="i" class="letter" name="I" value="I">
+                    <input type="button" id="j" class="letter" name="J" value="J">
+                    <input type="button" id="k" class="letter" name="K" value="K">
+                    <input type="button" id="l" class="letter" name="L" value="L">
+                    <input type="button" id="m" class="letter" name="M" value="M">
+                    <br>
+                    <input type="button" id="n" class="letter" name="N" value="N">
+                    <input type="button" id="o" class="letter" name="O" value="O">
+                    <input type="button" id="p" class="letter" name="P" value="P">
+                    <input type="button" id="q" class="letter" name="Q" value="Q">
+                    <input type="button" id="r" class="letter" name="R" value="R">
+                    <input type="button" id="s" class="letter" name="S" value="S">
+                    <input type="button" id="t" class="letter" name="T" value="T">
+                    <input type="button" id="u" class="letter" name="U" value="U">
+                    <input type="button" id="v" class="letter" name="V" value="V">
+                    <input type="button" id="w" class="letter" name="W" value="W">
+                    <input type="button" id="x" class="letter" name="X" value="X">
+                    <input type="button" id="y" class="letter" name="Y" value="Y">
+                    <input type="button" id="z" class="letter" name="Z" value="Z">
+                </form>
+
+                <p>Wrong Guesses: <br/></p>
+                <p id="wrongGuesses"></p>
+
+            <p id="win"></p>
+            <p id="lost"></p>
+            </div>
+        </div>
+    </body>
+</html>
